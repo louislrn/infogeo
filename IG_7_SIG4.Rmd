@@ -261,7 +261,14 @@ class: middle center
 
 <img src="figures/implantation.png" width="700" />
 
- 
+---
+
+##  Quelques ressources complémentaires
+
+Documentation et manuel d'utilisation de QGIS : https://docs.qgis.org/3.28/fr/docs/training_manual/index.html
+
+Tutoriel hébergé par le CNRS : https://tutoqgis.cnrs.fr/index.php
 
 ---
+
 ## **A vous de jouer !**
