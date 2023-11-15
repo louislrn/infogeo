@@ -2,7 +2,7 @@
 title: "Cartographie thématique"
 subtitle: "Concepts fondamentaux et règles de sémiologie graphique"
 author:  
-- "Ronan Ysebaert, Maxime Guinepain"
+- ""
 date: "Dernière mise à jour: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -156,17 +156,17 @@ On distingue souvent ([Jégou, 2021](https://rawcdn.githack.com/transcarto/prese
 - La carte **performative**, qui vise à faire réagir, de propagande, rhétorique (vision *post-moderniste*, B. Harley). 
 <img src="figures/Bunge_3.png" width="550" />
 .leg-fig[
-Region of Rat-Bitten Babies (Source : Bunge W., Bordessa R., 1975, the Canadian Alternative)
+Geography of Revolution (Source : Bunge W., 1971)
+Pour en savoir plus, allez [ici](https://jacket2.org/commentary/william-bunge-dgei-radical-cartography) 
 ]
 ]
 
 .pull-right[
-
+Region of Rat-Bitten Babies (Source : Bunge W., Bordessa R., 1975, the Canadian Alternative)
 
 <img src="figures/Bunge_1.png" width="650" />
 .leg-fig[
-<p>Geography of Revolution (Source : Bunge W., 1971)</p>
-Pour en savoir plus, allez [ici](https://jacket2.org/commentary/william-bunge-dgei-radical-cartography) 
+<p>Region of Rat-Bitten Babies (Source : Bunge W., Bordessa R., 1975, the Canadian Alternative)</p>
 ]
 ]
 
@@ -311,7 +311,7 @@ Cela influence directement l'**emprise géographique** et la **projection utilis
 ## Prendre du recul
 
 .center[
-<iframe width="840" height="472.5" src="https://www.youtube.com/embed/RDwn5Qzq6Fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="840" height="472.5" src="https://www.youtube.com/watch?v=uicwYbendUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .leg-fig[Méfiez-vous des cartes, pas des migrants (Source : Lambert, Bahoken, 2018)]
 ]
@@ -452,7 +452,7 @@ Elles possèdent des propriétés différentes qui permettent de **différencier
 
 ---
 
-## Les 3 propriétes des variables visuelles
+## Les 3 propriétés des variables visuelles
 
 .center[
 <img src="figures/VV_et_categories.png" width="700" />
@@ -954,7 +954,7 @@ Source : Regnier et Dourdet, 1882
 ---
 
 <br><br><br><br><br><br><br>
-# [#Map failed](https://twitter.com/i/events/1100700507620950017?lang=en)
+# [#Map fails](https://twitter.com/i/events/1100700507620950017?lang=en)
 
 ---
 

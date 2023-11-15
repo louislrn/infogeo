@@ -2,7 +2,7 @@
 title: "Introduction à la cartographie - Séance 2"
 subtitle: "Représenter les données quantitatives absolues<br>Cartographie thématique avec Magrit"
 author:  
-- "Ronan Ysebaert, Maxime Guinepain"
+- ""
 date: "Dernière mise à jour: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
