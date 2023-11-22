@@ -2,7 +2,7 @@
 title: "Introduction à la cartographie - Séance 3"
 subtitle: "Représenter les données qualitatives<br>Cartographie thématique avec Magrit"
 author:  
-- "Ronan Ysebaert, Maxime Guinepain"
+- ""
 date: "Dernière mise à jour: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
