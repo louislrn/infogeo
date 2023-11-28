@@ -702,7 +702,7 @@ technique et interprétation thématique).
 
 ## Le partiel
 
-
+.big[
 Devoir sur table : le **mercredi 13 décembre 2023 de 16h30 à 18h30**
 
 
@@ -713,6 +713,7 @@ Devoir sur table : le **mercredi 13 décembre 2023 de 16h30 à 18h30**
 
 - La **cartographie** : sémiologie graphique, variables visuelles, requis de mise en page et d'habillage]
 
+]
 ---
 .center[
 # Bon courage et bonnes vacances !
