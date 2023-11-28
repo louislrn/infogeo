@@ -1,7 +1,7 @@
 ---
 title: "Conclusion"
 author:  
-- "Ronan Ysebaert, Maxime Guinepain"
+- ""
 date: "Dernière mise à jour: `r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -635,7 +635,7 @@ visuellement une information.*
 ## L'évaluation du cours
 
 .big[
-* Un **dossier à composer** en binôme avec les différents exercices pratiques *(2/3 de la note)*
+* Un **dossier à composer** en binôme ou trinôme *(2/3 de la note)*
 
 * Un **partiel** *(1/3 de la note)*
 ]
@@ -645,7 +645,7 @@ visuellement une information.*
 ## Le dossier
 
 .big[
-A rendre au format papier ou numérique (clé USB) au moment de l'examen terminal. 
+A rendre au format papier ou pdf (via mail) pour le **5 janvier 2024**. 
 
 Grille de notation :
 
@@ -670,11 +670,11 @@ Expliquer en quoi l'implantation de ce nouvel équipement vous semble pertinente
 
 2) **Présentation des critères d'implantation (4 min.)** choisis pour déterminer la localisation
 optimale. Justifiez la pertinence de vos critères. N'hésitez pas à vous appuyer sur de la documentation.
-*(3.5 points)*
+*(3 points)*
 
 3) **Restitution des étapes de traitement SIG** qui vous ont permis de déterminer la ou les zone(s)
-optimale(s) **(3 points)**. Vous concluez cette partie par une carte de synthèse qui résume l'ensemble de la démarche
-et la (ou les) zone(s) d'implantation proposée(s).**(2.5 points)**
+optimale(s) *(3 points)*. Vous concluez cette partie par une carte de synthèse qui résume l'ensemble de la démarche
+et la (ou les) zone(s) d'implantation proposée(s).*(3 points)*
 
 4) **Illustration graphique** de la **chaîne de traitement** réalisée. *(2 points)*
 
@@ -699,18 +699,14 @@ technique et interprétation thématique).
 
 ---
 
-.pull-left[
+
 ## Le partiel
 
-Devoir sur table sur les notions vues en cours : le **mercredi 4 janvier 2023 de 16h30 à 18h30** (Amphi Gouges 1)]
 
-.pull-right[
-.right[
-![](figures/art_ds.png)
-]
-]
+Devoir sur table : le **mercredi 13 décembre 2023 de 16h30 à 18h30**
 
-.big[
+
+
 - L'**information géographique** : définition, types de données, vecteur / raster, types d'objets géographiques et d'implantations
 
 - La **géomatique**, les **SIG** : requêtes, géotraitements
@@ -723,5 +719,5 @@ Devoir sur table sur les notions vues en cours : le **mercredi 4 janvier 2023 de
 
 <img src="figures/terre_de_noel.png" height="250px" />
 
-[ronan.ysebaert@cnrs.fr](mailto:ronan.ysebaert@cnrs.fr) - [maxime.guinepain@u-paris.fr](mailto:maxime.guinepain@u-paris.fr)
+[heloise.chauvel@etu.u-paris.fr](mailto:heloise.chauvel@etu.u-paris.fr) - [louis.laurian@cnrs.fr](mailto:louis.laurian@cnrs.fr)
 ]
