@@ -136,9 +136,9 @@ knitr::include_graphics('figs/sphere_lat_long_2.png')
 
 ## Les systèmes géodésiques à connaître
 
-Un même **ellipsoïde peut être positionné différemment par rapport au géoïde**, et ainsi constituer des systèmes de référence géodésiques **différents**. Le même objet n'aura pas les mêmes coordonnées géographiques dans différents systèmes géodésiques.
+Un même ellipsoïde peut être **positionné différemment par rapport au géoïde**, et ainsi constituer des systèmes de référence géodésiques **différents**. Le même objet n'aura pas les mêmes coordonnées géographiques dans différents systèmes géodésiques.
 
-- **WSG84 (World Geodesic System 1984)**  
+- **WGS84 (World Geodesic System 1984)**  
 *Le plus utilisé au monde. C'est ce système géodésique qui est utilisé pour le GPS (système de positionnement par satellites).*
 
 - **ITRS (International Terrestrial Reference System)**  
@@ -147,7 +147,7 @@ Un même **ellipsoïde peut être positionné différemment par rapport au géo�
 - **RGF93 (Réseau Géodésique Français 1993)**.  
 *Système géodésique officiel en France métropolitaine.*
 
-- **NTF (Nouvelle Triangulation de la France)**
+- **NTF (Nouvelle Triangulation de la France)**  
 *Ancien système géodésique français de référence, couvrant le territoire métropolitain.*
 
 ---
@@ -172,11 +172,11 @@ knitr::include_graphics('figs/moscou.png')
 knitr::include_graphics('figs/avion.png')
 ```
 
-<p style="text-align:center;">*...provoque des déformations !*</p>
+<p style="text-align:center;">...provoque des **déformations** !</p>
 
 ## Les projections cartographiques
 
-<p style="text-align:center;">**Un système géodésique permet de localiser un objet sur une surface en 3 dimensions**</p>
+Un système géodésique, **en attribuant des coordonnées à tout point de l'espace**, permet de **localiser un objet sur une surface en 3 dimensions.**
 
 ```{r, echo = FALSE, out.width = "800px", fig.align='center'}
 knitr::include_graphics('figs/orange.png')
@@ -302,7 +302,7 @@ Les projections peuvent être classées selon les **altérations géométriques*
 
 ### Projections équivalentes
 
-**Conserve localement les surfaces**, mais au prix d’une **déformation des distances et des angles** de route sur la carte.] 
+**Conserve localement les surfaces**, mais au prix d’une **déformation des distances et des angles** de route sur la carte.
 
 :::
 ::: column
@@ -332,7 +332,7 @@ Projections  **ni conformes, ni équivalentes**, mais qui cherchent à faire un 
 
 ## Les types de projection (déformations)
 
-**Les projections peuvent être classées selon les altérations géométriques** qu'elles provoquent.
+Les projections peuvent être classées selon les **altérations géométriques** qu'elles provoquent.
 
 ::: columns 
 ::: column

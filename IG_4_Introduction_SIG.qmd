@@ -31,7 +31,7 @@ Il déterminera que la **transmission s'effectue par l'eau** et **identifiera le
 
 :::
 :::column
-![](figs/snow_monmonier.png)
+![](figs/map_snow.jpg)
 **Carte de John Snow** avec la localisation des lieux de résidence des personnes décédées du choléra.
 :::
 :::
@@ -53,7 +53,7 @@ Il déterminera que la **transmission s'effectue par l'eau** et **identifiera le
 
 :::
 :::column
-![](figs/map_snow.jpg)
+![](figs/snow_monmonier.png)
 
 **Carte de John Snow** avec la localisation des lieux de résidence des personnes décédées du choléra.
 :::
@@ -205,7 +205,7 @@ Un SIG permet de travailler sur les trois composantes de l'information géograph
 :::column
 <span style="color:#666666;font-size:24pt;">Niveau sémantique</span>
 
-**Les attributs** qui décrivent les objets géographiques (ex : libellé, population, catégorie) **peuvent être modifiés, supprimés, ajoutés et surtout requêtés** : Il est possible de sélectionner des objets géographiques **en fonction de la valeur des attributs**.
+**Les attributs** qui décrivent les objets géographiques (ex : libellé, population, catégorie) **peuvent être modifiés, supprimés, ajoutés et surtout requêtés** : Il est possible de sélectionner des objets géographiques **en fonction de la valeur des attributs** (sélection attributaire).
 
 <span style="color:#666666;font-size:24pt;">Niveau géométrique</span>
 
@@ -258,7 +258,7 @@ Les couches géographiques vectorielles (points, lignes, surfaces) au format sha
 <span style="font-size:14pt; font-weight: bold;">- Hôtels à insecte, ruches, lieux d'écoute à oiseaux, issus de la plateforme collaborative OpenStreetMap. **Attention à la complétude des données** !</span>
 
 **Découpages territoriaux** 
-<span style="font-size:14pt; font-weight: bold;">IRIS, communes, EPCI et départements de la Métropole du Grand Paris. L’IRIS correspond au découpage territorial le plus fin en France. Ce sera aussi la brique territoriale que vous utiliserez pour définir le lieu d’implantation (favorisez l’implantation de l’équipement dans tel et tel IRIS…) IRIS…). Source : IGN en géographie du 1er janvier 2025).</span>
+<span style="font-size:14pt; font-weight: bold;">IRIS, communes, EPCI et départements de la Métropole du Grand Paris. L’IRIS correspond au découpage territorial le plus fin en France. Ce sera aussi la brique territoriale que vous utiliserez pour définir le lieu d’implantation (favorisez l’implantation de l’équipement dans tel et tel IRIS…). Source : IGN en géographie du 1er janvier 2025.</span>
 :::
 :::column
 ![](figs/infogeodata.PNG)
@@ -297,8 +297,7 @@ knitr::include_graphics('figs/infogeodata.PNG')
 
 ## Présentation des données à disposition - Données statistiques
 
-Fichiers au format Excel qui correspondent à des extraits pour la Métropole du Grand Paris des données officielles de
-l’INSEE à l’échelle des IRIS et à la commune. 
+Fichiers au format Excel qui correspondent à des extraits pour la Métropole du Grand Paris des données officielles de l’INSEE à l’échelle des IRIS et à la commune. 
 
 :::columns
 :::column
@@ -312,7 +311,7 @@ l’INSEE à l’échelle des IRIS et à la commune.
 :::
 :::column
 ```{r, echo = FALSE, out.width = "450px"}
-knitr::include_graphics('figs/infogeodata.PNG')
+knitr::include_graphics('figs/infogeodata_stat.PNG')
 ```
 :::
 :::
