@@ -11,7 +11,7 @@
 
   <meta name="author" content="Louis Laurian">
   <meta name="author" content="Héloïse Chauvel">
-  <meta name="dcterms.date" content="2025-10-21">
+  <meta name="dcterms.date" content="2025-10-22">
   <title>Information géographique</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -154,18 +154,16 @@ Héloïse Chauvel
 </div>
 </div>
 
-  <p class="date">2025-10-21</p>
+  <p class="date">2025-10-22</p>
 </section>
 <section id="coordonnées-géographiques-projections" class="slide level2">
 <h2>Coordonnées géographiques &amp; projections</h2>
 <p>Une information géographique est forcément décrite par <strong>une position</strong> et <strong>une forme</strong> sur la surface de la Terre.</p>
-<p><br></p>
 <ul>
 <li><p>Sur quel <strong>référentiel</strong> se base-t-on pour localiser un objet sur Terre ?</p></li>
 <li><p>Comment détermine-t-on <strong>les coordonnées géographiques</strong> d’un objet géographique ?</p></li>
 <li><p>Qu’est-ce qu’une <strong>projection cartographique</strong> ?</p></li>
 </ul>
-<p><br></p>
 <p>Comprendre les méthodes de localisation et de projection de l’information géographique est fondamental pour <strong>correctement gérer le système de coordonnées géographiques et la projection cartographique d’une couche dans un SIG</strong>.</p>
 </section>
 <section class="slide level2">
@@ -175,7 +173,7 @@ Héloïse Chauvel
 </section>
 <section id="la-planète-terre-nest-pas-une-sphère-parfaite" class="slide level2">
 <h2>La planète Terre n’est pas une sphère parfaite…</h2>
-<img src="figs/globe.gif" width="420"> <br> <br>
+<br> <img src="figs/globe.gif" width="420" style="display: block; margin: 0 auto;">
 <p style="font-size:10pt;line-height:1.3;font-style:italic;color:#8e8d8d;">
 Source : NASA, University of Texas for Space Research, 2002
 </p>
@@ -184,7 +182,7 @@ Source : NASA, University of Texas for Space Research, 2002
 <h2>Le géoïde terrestre</h2>
 <p><strong>La Terre n’est pas une sphère</strong> qui est une forme géométrie dite parfaite. <strong>Elle est légèrement aplatie aux pôles et bosselée selon les continents</strong>. Son apparence sphérique lorsqu’on l’observe depuis l’espace masque les nombreuses petites irrégularités de sa surface.</p>
 <p>Toute mesure ayant besoin d’une référence, on modélise la forme de la Terre selon le modèle théorique du <strong>géoïde</strong>.</p>
-<p>Un géoïde est une surface équipotentielle du champ de pesanteur coïncidant « au mieux » avec le <strong>niveau moyen des océans et qui se prolonge sous les continents</strong>.</p>
+<p>Un géoïde est une <strong>surface équipotentielle du champ de pesanteur</strong> coïncidant « au mieux » avec le <strong>niveau moyen des océans et qui se prolonge sous les continents</strong>.</p>
 
 <img data-src="figs/geoide2.png" class="quarto-figure quarto-figure-center r-stretch" width="350"></section>
 <section id="le-géoïde-terrestre-1" class="slide level2">
@@ -197,7 +195,7 @@ Source : NASA, University of Texas for Space Research, 2002
 <h2>Formalisation mathématique du géoïde</h2>
 <div class="columns">
 <div class="column">
-<p><br><br><br> Le géoïde est une <strong>surface difforme</strong> à laquelle on ne saurait appliquer des <strong>relations mathématiques</strong>.</p>
+<p><br><br> Le géoïde est une <strong>surface difforme</strong> à laquelle on ne saurait appliquer des <strong>relations mathématiques</strong>.</p>
 <p>Pour modéliser cette surface, on utilise une <strong>figure géométrique régulière</strong>: <strong>l’ellipsoïde</strong>.</p>
 <p>Il s’agit d’un volume globalement sphérique présentant un aplatissement aux pôles.</p>
 </div><div class="column">
@@ -313,6 +311,9 @@ Source : NASA, University of Texas for Space Research, 2002
 <img data-src="figs/orange.png" class="quarto-figure quarto-figure-center r-stretch" width="800"><p style="text-align:center;">
 <em>Mais comment représenter l’information géographique sur un plan en deux dimensions, sur une carte ?</em>
 </p>
+<p style="text-align:center;">
+<em>https://www.youtube.com/watch?v=8ZANOq8D5YE</em>
+</p>
 </section>
 <section id="les-projections-cartographiques-1" class="slide level2">
 <h2>Les projections cartographiques</h2>
@@ -398,15 +399,7 @@ Il n’y a pas de règle pour l’orientation et le centre d’une projection, m
 <p><strong>Conservent localement les angles, donc les formes</strong>. Les méridiens et parallèles se coupent à angle droit.</p>
 <p><strong>Les surfaces et les distances sont déformées.</strong> Ce type de projection peut être utilisé pour la navigation maritime.</p>
 </div><div class="column">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/mercator.jpg" class="quarto-figure quarto-figure-center" width="480"></p>
-</figure>
-</div>
-</div>
-</div>
+<img data-src="figs/mercator.jpg">
 <p style=";font-size:18pt;">
 Exemple : <strong>Projection Mercator</strong>
 </p>
@@ -423,15 +416,7 @@ Exemple : <strong>Projection Mercator</strong>
 <h3 id="projections-équivalentes">Projections équivalentes</h3>
 <p><strong>Conserve localement les surfaces</strong>, mais au prix d’une <strong>déformation des distances et des angles</strong> de route sur la carte.]</p>
 </div><div class="column">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/gall_peters.jpg" class="quarto-figure quarto-figure-center" width="520"></p>
-</figure>
-</div>
-</div>
-</div>
+<img data-src="figs/gall_peters.jpg">
 <p style=";font-size:18pt;">
 Exemple : <strong>Projection Gall–Peters</strong>
 </p>
@@ -448,15 +433,7 @@ Exemple : <strong>Projection Gall–Peters</strong>
 <h3 id="projections-aphylactiques">Projections aphylactiques</h3>
 <p>Projections <strong>ni conformes, ni équivalentes</strong>, mais qui cherchent à faire un <strong>compromis acceptable</strong> entre les inévitables déformations des surfaces, des distances et des angles sur une carte.</p>
 </div><div class="column">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/Natural_Earth.JPG" class="quarto-figure quarto-figure-center" width="550"></p>
-</figure>
-</div>
-</div>
-</div>
+<img data-src="figs/Natural_Earth.JPG">
 <p style=";font-size:18pt;">
 Exemple : <strong>Projection Natural Earth</strong>
 </p>
@@ -473,15 +450,7 @@ Exemple : <strong>Projection Natural Earth</strong>
 <h3 id="projections-aphylactiques-équidistantes">Projections aphylactiques (équidistantes)</h3>
 <p>La <strong>distance et la direction</strong>, mesurées à partir du point central, sont toutes deux exactes.</p>
 </div><div class="column">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/postel.png" class="quarto-figure quarto-figure-center" width="380"></p>
-</figure>
-</div>
-</div>
-</div>
+<img data-src="figs/postel.png">
 <p style=";font-size:18pt;">
 Exemple : <strong>Projection Postel</strong>
 </p>

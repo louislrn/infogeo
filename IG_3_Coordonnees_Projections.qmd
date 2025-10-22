@@ -16,15 +16,11 @@ format:
 
 Une information géographique est forcément décrite par **une position** et **une forme** sur la surface de la Terre.
 
-<br>
-
 - Sur quel **référentiel** se base-t-on pour localiser un objet sur Terre ?
 
 - Comment détermine-t-on **les coordonnées géographiques** d'un objet géographique ?   
 
 - Qu'est-ce qu'une **projection cartographique** ?  
-
-<br>
 
 Comprendre les méthodes de localisation et de projection de l'information géographique est fondamental pour **correctement gérer le système de coordonnées géographiques et la projection cartographique d'une couche dans un SIG**.
 
@@ -35,10 +31,8 @@ Comprendre les méthodes de localisation et de projection de l'information géog
 ### <span style="color:darkred;font-size:36pt;">1.  Modéliser pour localiser</span>
 
 ## La planète Terre n'est pas une sphère parfaite...
-
-<img src="figs/globe.gif" width="420" />
 <br>
-<br>
+<img src="figs/globe.gif" width="420" style="display: block; margin: 0 auto;" />
 <p style="font-size:10pt;line-height:1.3;font-style:italic;color:#8e8d8d;">Source : NASA, University of Texas for Space Research, 2002 </p>
 
 ## Le géoïde terrestre
@@ -47,7 +41,7 @@ Comprendre les méthodes de localisation et de projection de l'information géog
 
 Toute mesure ayant besoin d'une référence, on modélise la forme de la Terre selon le modèle théorique du **géoïde**.
 
-Un géoïde est une surface équipotentielle du champ de pesanteur coïncidant « au mieux » avec le **niveau moyen des océans et qui se prolonge sous les continents**.
+Un géoïde est une **surface équipotentielle du champ de pesanteur** coïncidant « au mieux » avec le **niveau moyen des océans et qui se prolonge sous les continents**.
 
 ```{r, echo = FALSE, out.width = "350px", fig.align='center'}
 knitr::include_graphics('figs/geoide2.png')
@@ -68,7 +62,7 @@ knitr::include_graphics('figs/maregraphe.png')
 
 ::: columns 
 ::: column
-<br><br><br>
+<br><br>
 Le géoïde est une **surface difforme** à laquelle on ne saurait appliquer des **relations mathématiques**.
 
 Pour modéliser cette surface, on utilise une **figure géométrique régulière**: **l'ellipsoïde**.      
@@ -190,6 +184,8 @@ knitr::include_graphics('figs/orange.png')
 
 <p style="text-align:center;">*Mais comment représenter l'information géographique sur un plan en deux dimensions, sur une carte ?*</p>
 
+<p style="text-align:center;">*https://www.youtube.com/watch?v=8ZANOq8D5YE*</p>
+
 
 ## Les projections cartographiques
 
@@ -291,9 +287,7 @@ Les projections peuvent être classées selon les **altérations géométriques*
 **Les surfaces et les distances sont déformées.** Ce type de projection peut être utilisé pour la navigation maritime.
 :::
 ::: column
-```{r, echo = FALSE, out.width = "480px", fig.align='center'}
-knitr::include_graphics('figs/mercator.jpg')
-```
+![](figs/mercator.jpg)
 <p style=";font-size:18pt;">Exemple : **Projection Mercator**</p>
 <p style=";font-size:14pt;">*Gerardus Mercator (1569)*</p>
 :::
@@ -312,9 +306,7 @@ Les projections peuvent être classées selon les **altérations géométriques*
 
 :::
 ::: column
-```{r, echo = FALSE, out.width = "520px", fig.align='center'}
-knitr::include_graphics('figs/gall_peters.jpg')
-```
+![](figs/gall_peters.jpg)
 <p style=";font-size:18pt;">Exemple : **Projection Gall–Peters**</p>
 <p style=";font-size:14pt;">*James Gall et Arno Peters (1855)*</p>
 :::
@@ -332,9 +324,7 @@ Les projections peuvent être classées selon les **altérations géométriques*
 Projections  **ni conformes, ni équivalentes**, mais qui cherchent à faire un **compromis acceptable** entre les inévitables déformations des surfaces, des distances et des angles sur une carte.
 :::
 ::: column
-```{r, echo = FALSE, out.width = "550px", fig.align='center'}
-knitr::include_graphics('figs/Natural_Earth.JPG')
-```
+![](figs/Natural_Earth.JPG)
 <p style=";font-size:18pt;">Exemple : **Projection Natural Earth**</p>
 <p style=";font-size:14pt;">*Tom Patterson (2011)*</p>
 :::
@@ -351,9 +341,7 @@ knitr::include_graphics('figs/Natural_Earth.JPG')
 La **distance et la direction**, mesurées à partir du point central, sont toutes deux exactes.
 :::
 ::: column
-```{r, echo = FALSE, out.width = "380px", fig.align='center'}
-knitr::include_graphics('figs/postel.png')
-```
+![](figs/postel.png)
 <p style=";font-size:18pt;">Exemple : **Projection Postel**</p>
 <p style=";font-size:14pt;">*Al-Biruni (1000 envir.)*</p>
 :::

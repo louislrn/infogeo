@@ -31,7 +31,7 @@ Il déterminera que la **transmission s'effectue par l'eau** et **identifiera le
 
 :::
 :::column
-![](figs/map_snow.jpg)
+![](figs/snow_monmonier.png)
 **Carte de John Snow** avec la localisation des lieux de résidence des personnes décédées du choléra.
 :::
 :::
@@ -53,7 +53,8 @@ Il déterminera que la **transmission s'effectue par l'eau** et **identifiera le
 
 :::
 :::column
-![](figs/snow_monmonier.png)
+![](figs/map_snow.jpg)
+
 **Carte de John Snow** avec la localisation des lieux de résidence des personnes décédées du choléra.
 :::
 :::
@@ -139,7 +140,7 @@ Pour **modéliser la réalité**, on superpose plusieurs couches d'information g
 
 Chaque **couche géographique contient des objets de même type** (adresses, parcelles, routes, bâtiments, cours d'eau, limites administratives...)
 
-**Une couche géographique = un type d'objet géographique** : point, ligne, polygone ou image géoréférencée (raster).
+**Une couche géographique = un type d'objet géographique** : point, ligne, polygone (vecteur) ou image géoréférencée (raster).
 :::
 :::column
 <img src="figs/fond_mtq.png" height="450" />
@@ -155,7 +156,7 @@ Pour **modéliser la réalité**, on superpose plusieurs couches d'information g
 
 Chaque **couche géographique contient des objets de même type** (adresses, parcelles, routes, bâtiments, cours d'eau, limites administratives...)
 
-**Une couche géographique = un type d'objet géographique** : point, ligne, polygone ou image géoréférencée (raster).
+**Une couche géographique = un type d'objet géographique** : point, ligne, polygone (vecteur) ou image géoréférencée (raster).
 :::
 :::column
 <img src="figs/maillage_mtq.png" height="450" />
@@ -172,7 +173,7 @@ Pour **modéliser la réalité**, on superpose plusieurs couches d'information g
 
 Chaque **couche géographique contient des objets de même type** (adresses, parcelles, routes, bâtiments, cours d'eau, limites administratives...)
 
-**Une couche géographique = un type d'objet géographique** : point, ligne, polygone ou image géoréférencée (raster).
+**Une couche géographique = un type d'objet géographique** : point, ligne, polygone (vecteur) ou image géoréférencée (raster).
 :::
 :::column
 <img src="figs/pop_mtq.png" height="450" />
@@ -189,7 +190,7 @@ Pour **modéliser la réalité**, on superpose plusieurs couches d'information g
 
 Chaque **couche géographique contient des objets de même type** (adresses, parcelles, routes, bâtiments, cours d'eau, limites administratives...)
 
-**Une couche géographique = un type d'objet géographique** : point, ligne, polygone ou image géoréférencée (raster).
+**Une couche géographique = un type d'objet géographique** : point, ligne, polygone (vecteur) ou image géoréférencée (raster).
 :::
 :::column
 <img src="figs/mtq.png" height="450" />
